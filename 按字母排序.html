@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>
+<script type="text/javascript">
+	var array = ['放火', '爆炸', '劫持', '杀人','杀害致死','伤害','强奸','猥亵','强迫劳动','非法拘禁','煽动民族仇恨','绑架','抢劫','盗窃','入室盗窃','扒窃','抢夺','诈骗','毒品','经济','涉访','涉稳','爆恐','涉赌','涉黄','涉拐','涉抢','传销','危害公安安全','破坏经济秩序','敲诈勒索','故意损毁财务','破坏生产经营','拒不支付劳动报酬','妨害社会管理秩序','交通肇事','侮辱诽谤','寻衅滋事'];
+	array = array.sort(
+	    function compareFunction(param1, param2) {
+	        return param1.localeCompare(param2);
+	    }
+	);
+	console.log(array);
+</script>
